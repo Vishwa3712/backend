@@ -11,6 +11,10 @@ app.get('/login', (req, res) => {
     res.send("<h1>hello Vishwajeet</h1>")
 })
 
+app.get('/', (req, res) => {
+  res.send("This is React")
+})
+
 
 
 app.listen(port, () => {
